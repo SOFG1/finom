@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finom / Profile</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header class="header header--profile">
+            <div class="container">
+                <div class="header__inner">
+
+                    <a href="#" class="header__logo">
+                        <img src="./images/logo.svg" alt="header-logo" class="header__logo-img">
+                    </a>
+
+
+                    <nav class="header__nav">
+                        <button class="header__nav-close close-btn">X</button>
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">Money</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">Team</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">Cards</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">Help center</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">
+                                    <img src="./images/header-gift.png" alt="" class="header__pic">Invite your
+                                    partners</a>
+                            </li>
+                        </ul>
+                        <div class="header__actions">
+                            <a href="" class="header__upgrade">
+                                <img src="./images/header-rocket.png" alt="" class="header__pic header__pic--sm">Upgrade
+                                plan</a>
+                            <a href="#" class="header__profile">
+                                <span class="header__profile-char">T</span>
+                                TESLA S.R.L.</a>
+                        </div>
+                    </nav>
+
+                    <button class="header__burger">
+                        <span class="header__burger-line"></span>
+                        <span class="header__burger-line"></span>
+                        <span class="header__burger-line"></span>
+                    </button>
+
+                </div>
+            </div>
+        </header>
+        <!-- Header- -->
+
+        <!-- Profile -->
+        <main class="main">
+            <div class="profile">
+                <div class="container">
+                    <div class="profile__inner">
+
+                        <aside class="profile__sidebar">
+                            <nav class="profile__nav">
+                                <p class="profile__nav-title">Personal</p>
+                                <a href="#" class="profile__nav-link">Profile</a>
+                                <a href="#" class="profile__nav-link">Security</a>
+                                <a href="#" class="profile__nav-link">Notifications</a>
+                                <p class="profile__nav-title">Tesla s.r.L.</p>
+                                <a href="#" class="profile__nav-link">Business profile</a>
+                                <a href="#" class="profile__nav-link">E-invoicing</a>
+                                <a href="#" class="profile__nav-link active">Plan and limits</a>
+                                <a href="#" class="profile__nav-link">Team</a>
+                            </nav>
+                        </aside>
+
+                        <div class="profile__block block">
+                            <div class="block__card">
+                                <div class="block__box">
+                                    <h1 class="block__title">Invoicing Start</h1>
+                                    <a href="#" class="block__link">Change plan</a>
+                                </div>
+                                <p class="block__price">6,99 € <span>/mo</span></p>
+                                <div class="block__fare">
+                                    <p class="block__fare-text">We’ll charge 6,99 € on Jul 24, 2020</p>
+                                    <a href="#" class="block__fare-link">Change card *** 5423 or billing info</a>
+                                </div>
+                                <div class="block__plan">
+                                    <button class="block__plan-btn">Switch to annual plan </button>
+                                    <p class="block__plan-text">and save 24,00 € a year</p>
+                                </div>
+                                <span class="block__line"></span>
+                                <h2 class="block__subtitle"><span>Explore new features</span> <img
+                                        src="./images/block-pic.png" alt="" class="block__pic"></h2>
+
+                                <div class="block__current">
+                                    <div class="block__current-box">
+                                        <h4 class="block__current-title">Invoicing Premium</h4>
+                                        <button class="block__current-close"></button>
+                                    </div>
+                                    <div class="block__current-container">
+                                        <ul class="block__current-features">
+                                            <li class="block__current-feature">Unlimited outgoing e-invoices</li>
+                                            <li class="block__current-feature">Unlimited connected banks</li>
+                                            <li class="block__current-feature">10 users</li>
+                                            <li class="block__current-feature">Expense management</li>
+                                        </ul>
+                                        <div class="block__current-prices">
+                                            <p class="block__current-price">€20.99 <span>/mo</span></p>
+                                            <div class="block__current-old">
+                                                <p>billed annually or 24.99</p>
+                                                <p>billed monthly</p>
+                                            </div>
+                                            <button class="block__current-btn btn">Upgrade</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="block__card">
+                                <div class="block__info">
+                                    <div class="block__info-btns">
+                                        <button class="block__info-btn active" data-profile-btn="limits">Limits</button>
+                                        <button class="block__info-btn" data-profile-btn="invoices">Invoices</button>
+                                    </div>
+                                    <div class="block__info-card active" data-profile-block="limits">
+                                        <div class="block__info-item">
+                                            <div class="block__info-box">
+                                                <p class="block__info-title">Team members</p>
+                                                <p class="block__info-value"><span>3</span>/6</p>
+                                            </div>
+                                            <div class="block__info-bar">
+                                                <span style="width: 50%;"></span>
+                                            </div>
+                                            <div class="block__info-container">
+                                                <p class="block__info-text">Need more members?</p>
+                                                <a href="#" class="block__info-link">Upgrade your plan</a>
+                                            </div>
+                                        </div>
+                                        <div class="block__info-item">
+                                            <div class="block__info-box">
+                                                <p class="block__info-title">Outgoing e-invoicess</p>
+                                                <p class="block__info-value block__info-value--text">Unlimited</p>
+                                            </div>
+                                            <div class="block__info-bar">
+                                                <span style="width: 100%;"></span>
+                                            </div>
+                                            <div class="block__info-container">
+                                                <p class="block__info-text">Send as many e-invoices as you want</p>
+                                            </div>
+                                        </div>
+                                        <div class="block__info-item">
+                                            <div class="block__info-box">
+                                                <p class="block__info-title">Connected sources (banks)</p>
+                                                <p class="block__info-value"><span>5</span>/5</p>
+                                            </div>
+                                            <div class="block__info-bar block__info-bar--full">
+                                                <span style="width: 100%;"></span>
+                                            </div>
+                                            <div class="block__info-container">
+                                                <p class="block__info-text">Need more members?</p>
+                                                <a href="#" class="block__info-link">Upgrade your plan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block__info-card" data-profile-block="invoices">
+                                        <div class="block__info-item">
+                                            <div class="block__info-box">
+                                                <p class="block__info-title">Team members</p>
+                                                <p class="block__info-value"><span>1</span>/6</p>
+                                            </div>
+                                            <div class="block__info-bar">
+                                                <span style="width: 16.66%;"></span>
+                                            </div>
+                                            <div class="block__info-container">
+                                                <p class="block__info-text">Need more members?</p>
+                                                <a href="#" class="block__info-link">Upgrade your plan</a>
+                                            </div>
+                                        </div>
+                                        <div class="block__info-item">
+                                            <div class="block__info-box">
+                                                <p class="block__info-title">Outgoing e-invoicess</p>
+                                                <p class="block__info-value block__info-value--text">Unlimited</p>
+                                            </div>
+                                            <div class="block__info-bar">
+                                                <span style="width: 50%;"></span>
+                                            </div>
+                                            <div class="block__info-container">
+                                                <p class="block__info-text">Send as many e-invoices as you want</p>
+                                            </div>
+                                        </div>
+                                        <div class="block__info-item">
+                                            <div class="block__info-box">
+                                                <p class="block__info-title">Connected sources (banks)</p>
+                                                <p class="block__info-value"><span>3</span>/5</p>
+                                            </div>
+                                            <div class="block__info-bar">
+                                                <span style="width: 60%;"></span>
+                                            </div>
+                                            <div class="block__info-container">
+                                                <p class="block__info-text">Need more members?</p>
+                                                <a href="#" class="block__info-link">Upgrade your plan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="profile__chat-btn">
+                    <img src="./images/profile-chat-btn.svg" alt="" class="profile__chat-img">
+                </button>
+            </div>
+        </main>
+        <!-- Profile -->
+
+    </div>
+
+    <script src="./js/main.min.js"></script>
+</body>
+
+</html>
